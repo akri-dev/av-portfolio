@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body.home-page {
     background-image: url('../images/hero-image.png');
     background-position: right 0;
     background-repeat: no-repeat;
+    background-size: 634px 1024px;
+    margin: 0 auto;
 }
 
 a {
@@ -14,8 +17,32 @@ a {
 a.logo {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 56px;
+    margin-left: 85px;
 }
 
 ul {
     list-style-type: none;
+}
+
+ul.navigation-group {
+    float: right;
+    margin-right: 65px;
+    caret-color: transparent;
+}
+
+.navigation-items {
+    float: left;
+    margin-right: 50px;
+    font-size: 20px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#nav-connect {
+    margin-right: 0px;
+}
+
+nav {
+    margin-top: 39px;
 }
