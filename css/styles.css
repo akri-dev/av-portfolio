@@ -1,6 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body.home-page {
     background-image: url('../images/hero-image.png');
     background-position: right 0;
     background-repeat: no-repeat;
+}
 
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a.logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 56px;
+}
+
+ul {
+    list-style-type: none;
 }
