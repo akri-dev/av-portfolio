@@ -37,16 +37,20 @@ ul.navigation-group {
 }
 
 nav {
-    margin-top: 39px;
+    margin-top: 29px;
 }
 
 .section#homepage {
     background-image: url('../images/hero-image.png');
     background-position: right 0;
     background-repeat: no-repeat;
-    justify-content: left;
+    background-size: auto auto;
+    height: 100vh;
 }
 
+.fp-overflow {
+    height: 100vh;
+}
 main {
     display: flex;
     flex-direction: row;
@@ -54,7 +58,7 @@ main {
 .homepage-division {
     width: 100%;
     padding-left: 70px;
-    padding-top: 200px;
+    padding-top: 150px;
 }
 
 .homepage-division h1 {
@@ -93,6 +97,7 @@ main {
     text-transform: uppercase;
     color: #FFFFFF;
     border-width: 0px;
+    margin-right: 16px;
 }
 
 button {
@@ -111,6 +116,7 @@ font-weight: 900;
 font-size: 24px;
 text-transform: uppercase;
 color: #1C1C1C;
+margin-left: 16px;
 }
 
 .button-yellow:active {     
@@ -141,8 +147,24 @@ color: #1C1C1C;
 .button-row {
     display: flex;
     flex-direction: row;
+
+    align-items: center;
 }
+
 
 html {
     caret-color: transparent;
+}
+
+.socials-logo {
+    width: 36.83px;
+    height: 36px;
+}
+
+.socials-row {
+    margin-top: 33px;
+}
+
+#second-half {
+    width: 0;
 }
