@@ -246,3 +246,17 @@ p {
     margin: 26px;
 }
 
+#portfolio-sample .fp-overflow {
+    justify-content: start;
+    padding-top: 20px;
+}
+
+.portfolio-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#portfolio-sample h4 {
+    margin-bottom: 10px;
+}
