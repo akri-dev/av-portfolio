@@ -15,7 +15,7 @@
                 <nav>
                     <a href="index.html" class="logo">Akri Visual</a>        
                     <ul class="navigation-group">
-                        <li class="navigation-items"><a href="#home" id="pushButton">Home</a></li>
+                        <li class="navigation-items"><a href="#home">Home</a></li>
                         <li class="navigation-items"><a href="#resume">What I Do</a></li>
                         <li class="navigation-items"><a href="#portfolio">Portfolio</a></li>
                         <li class="navigation-items" id="nav-connect"><a href="#connect">Connect</a></li>
@@ -26,8 +26,8 @@
                     <h1>Helping<br/>People to<br/>Help Another</h1>
                     <h4>Developing sustainable and valuable experiences<br/> and solutions for small and medium enterprises</h4>
                     <div class="button-row">
-                        <button class="button-black" onclick="resumePage();">Resume</button>
-                        <button class="button-yellow" onclick="portfolioPage();"><div class="yellow-border">Portfolio</div></button>
+                        <button class="button-black" onclick="fullpage_api.moveTo('resume')">Resume</button>
+                        <button class="button-yellow" onclick="fullpage_api.moveTo('portfolio')"><div class="yellow-border">Portfolio</div></button>
                     </div>
                     <div class="socials-row">
                         <a href="https://www.facebook.com/alecjosephb/"><img src="images/icon_brand_facebook.png" alt="facebook icon" class="socials-logo"></a>
@@ -63,22 +63,32 @@
                 <h1 class="headers">Portfolio</h1>
                 <h4 class="caption">you can connect with me online if you need more</h4>
                 <div class="buttons-portfolio">
-                    <button class="button-black">Graphics Design</button>
-                    <button class="button-black">Front-end Web Dev</button>
+                    <button class="button-black" onclick="fullpage_api.moveTo('portfolio', 1)">Graphics Design</button>
+                    <button class="button-black" onclick="fullpage_api.moveTo('portfolio', 2)">Front-end Web Dev</button>
                 </div>
             </div>
-            <div class="slide">
-                <h1 class="headers">Portfolio</h1>
-                <h4 class="caption">you can connect with me online if you need more</h4>
-                <img src="images/portfolio-1.png" alt="portfolio photo" class="portfolio-photo">
-                <img src="images/portfolio-2.png" alt="portfolio photo" class="portfolio-photo">
-                <img src="images/portfolio-3.png" alt="portfolio photo" class="portfolio-photo">
-                <img src="images/portfolio-4.png" alt="portfolio photo" class="portfolio-photo">
-                <img src="images/portfolio-5.png" alt="portfolio photo" class="portfolio-photo">
-                <img src="images/portfolio-6.png" alt="portfolio photo" class="portfolio-photo">
-                <img src="images/portfolio-7.png" alt="portfolio photo" class="portfolio-photo">
-                <img src="images/portfolio-8.png" alt="portfolio photo" class="portfolio-photo">
-                <img src="images/portfolio-9.png" alt="portfolio photo" class="portfolio-photo">
+            <div class="slide" id="portfolio-graphics">
+                <h1 class="headers">Graphics Design</h1>
+                <h4 class="caption">best work mostly done for church ministry</h4>
+                <div class="portfolio-column">
+                    <div class="portfolio-row">
+                        <img src="images/portfolio-1.png" alt="portfolio photo" class="portfolio-photo">
+                        <img src="images/portfolio-2.png" alt="portfolio photo" class="portfolio-photo">
+                    </div>
+                    <div class="portfolio-row">
+                        <img src="images/portfolio-3.png" alt="portfolio photo" class="portfolio-photo">
+                        <img src="images/portfolio-4.png" alt="portfolio photo" class="portfolio-photo">
+                    </div>
+                    <div class="portfolio-row">
+                        <img src="images/portfolio-5.png" alt="portfolio photo" class="portfolio-photo">
+                        <img src="images/portfolio-6.png" alt="portfolio photo" class="portfolio-photo">
+                    </div>
+                    <div class="portfolio-row">
+                        <img src="images/portfolio-7.png" alt="portfolio photo" class="portfolio-photo">
+                        <img src="images/portfolio-8.png" alt="portfolio photo" class="portfolio-photo">
+                    </div>
+                    <div class="portfolio-row"><img src="images/portfolio-9.png" alt="portfolio photo" class="portfolio-photo"></div>
+                </div>
             </div>
             <div class="slide">
                 <h1 class="headers">Portfolio</h1>
@@ -86,7 +96,6 @@
                 <img src="images/sample-1.png" alt="sample photo" class="sample-photo">
                 <img src="images/sample-2.png" alt="sample photo" class="sample-photo">
             </div>
-
         </div>
         <div class="section" id="connectpage">
             <div class="slide"> 

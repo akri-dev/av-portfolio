@@ -23,11 +23,3 @@ new fullpage('#fullpage', {
     anchors: ['home', 'resume', 'portfolio', 'connect'],
     sectionsColor : ['#FFFFFF', '#000000', '#FFBD59', '#FFFFFF']
 });
-
-var resumePage = function () {
-    fullpage_api.moveTo('resume');
-}
-
-var portfolioPage = function () {
-    fullpage_api.moveTo('portfolio');
-}

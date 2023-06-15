@@ -230,3 +230,19 @@ p {
     margin-bottom: 0px;
     
 }
+
+#portfolio-graphics .fp-overflow {
+    justify-content: start;
+    padding-top: 90px;
+}
+
+.portfolio-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.portfolio-row img {
+    margin: 26px;
+}
+
