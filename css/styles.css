@@ -147,7 +147,6 @@ margin-left: 16px;
 .button-row {
     display: flex;
     flex-direction: row;
-
     align-items: center;
 }
 
@@ -167,4 +166,45 @@ html {
 
 #second-half {
     width: 0;
+}
+
+.section#resumepage {
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#resumepage h1 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 128px;
+    font-weight: 900;
+    margin: 0;
+    font-style: normal;
+    align-items: center;
+    text-align: center;
+    line-height: 1em;
+}
+
+.caption {
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 40px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+#resumepage .button-black {
+    border: 2px solid #FFFFFF;
+}
+
+#resumepage .fp-overflow, #portfoliopage .fp-overflow, #connectpage .fp-overflow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
