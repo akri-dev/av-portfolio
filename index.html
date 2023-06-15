@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.css" integrity="sha512-wCVOuVtxsXqrQK7tj9j4BvyfITQmpp7UE7mVilD7aieGLYFEIAa5UKTP1RapOf6dxQ9JIKAneakcyykWG4r4Ow==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/styles.css">
     <title>Akri Visuals</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.css" integrity="sha512-wCVOuVtxsXqrQK7tj9j4BvyfITQmpp7UE7mVilD7aieGLYFEIAa5UKTP1RapOf6dxQ9JIKAneakcyykWG4r4Ow==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="home-page">
     
@@ -15,10 +15,10 @@
                 <nav>
                     <a href="index.html" class="logo">Akri Visual</a>        
                     <ul class="navigation-group">
-                        <li class="navigation-items"><a href="#" id="pushButton">Home</a></li>
-                        <li class="navigation-items"><a href="#">What I Do</a></li>
-                        <li class="navigation-items"><a href="#">Portfolio</a></li>
-                        <li class="navigation-items" id="nav-connect"><a href="#">Connect</a></li>
+                        <li class="navigation-items"><a href="#home" id="pushButton">Home</a></li>
+                        <li class="navigation-items"><a href="#resume">What I Do</a></li>
+                        <li class="navigation-items"><a href="#portfolio">Portfolio</a></li>
+                        <li class="navigation-items" id="nav-connect"><a href="#connect">Connect</a></li>
                     </ul>
                 </nav>
             <main>
@@ -26,8 +26,8 @@
                     <h1>Helping<br/>People to<br/>Help Another</h1>
                     <h4>Developing sustainable and valuable experiences<br/> and solutions for small and medium enterprises</h4>
                     <div class="button-row">
-                        <button class="button-black">Resume</button>
-                        <button class="button-yellow">Portfolio</button>
+                        <button class="button-black" onclick="resumePage();">Resume</button>
+                        <button class="button-yellow" onclick="portfolioPage();"><div class="yellow-border">Portfolio</div></button>
                     </div>
                     <div class="socials-row">
                         <img src="" alt="" class="socials-logo">
@@ -41,18 +41,13 @@
             </main>
         </div>
         <div class="section">Some section</div>
-        <div class="section">Some section</div>
+        <div class="section">
+            <div class="slide" data-anchor="slide1">Two 1</div>
+            <div class="slide" data-anchor="slide2">Two 2</div>
+        </div>
         <div class="section">Some section</div>
     </div>
-    <script type="text/javascript" src="js/scripts.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.js" integrity="sha512-LGiXf+jHGTHcIybSsOWO3I/in+OObCkcEsWIZ7IyhzfD6RzD5qDUw2CK+JveuI7zTSEcDG//bIOvOpAJW2BWsg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script>
-        new fullpage('#fullpage', {
-            //options here
-            autoScrolling:true,
-            scrollHorizontally: true,
-            sectionsColor : ['#FFFFFF', '#000000', '#FFBD59', '#FFFFFF']
-        });
-    </script>
+    <script type="text/javascript" src="js/scripts.js"></script>
 </body>
 </html>
