@@ -141,7 +141,6 @@ margin-left: 16px;
 
 .button-black:active {     
     background: #919191;
-      
 }
 
 .button-row {
@@ -160,6 +159,12 @@ html {
     height: 36px;
 }
 
+#connectpage .socials-logo {
+    width: 50.83px;
+    height: 50px;
+    margin: 0 10px;
+}
+
 .socials-row {
     margin-top: 33px;
 }
@@ -176,7 +181,7 @@ html {
     justify-content: center;
 }
 
-#resumepage h1 {
+#resumepage h1, #portfoliopage h1, #connectpage h1 {
     font-family: 'Heebo', sans-serif;
     font-size: 128px;
     font-weight: 900;
@@ -185,10 +190,11 @@ html {
     align-items: center;
     text-align: center;
     line-height: 1em;
+    text-transform: uppercase;
+
 }
 
 .caption {
-    align-items: center;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-style: italic;
@@ -207,4 +213,20 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100vw;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+
+#connect-caption {
+    text-transform: initial;
+    margin-bottom: 0px;
+    
 }
