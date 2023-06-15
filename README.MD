@@ -4,8 +4,7 @@
 ## Personal Portfolio v2.00
 ### by Alec Joseph S. Burio
 
-Languages used: HTML, CSS, Javascript
-Library used: fullpage (https://alvarotrigo.com/fullPage/)
+Languages used: HTML, CSS, Javascript | Library used: fullpage (https://alvarotrigo.com/fullPage/)
 
 Includes:
 <ul>
