@@ -58,19 +58,19 @@ main {
 .homepage-division {
     width: 100%;
     padding-left: 70px;
-    padding-top: 150px;
+    padding-top: 200px;
 }
 
 .homepage-division h1 {
-    font-size: 90px;
+    font-size: 70px;
     font-weight: 900;
     font-family: 'Heebo', sans-serif;
     text-transform: uppercase;
     letter-spacing: -0.02em;
-    line-height: 90px;
+    line-height: 70px;
     font-style: normal;
     margin: 0 auto;
-    margin-bottom: 34px;
+    margin-bottom: 14px;
 }
 
 .homepage-division h4 {
