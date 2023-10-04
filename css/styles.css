@@ -260,3 +260,113 @@ p {
 #portfolio-sample h4 {
     margin-bottom: 10px;
 }
+
+@media (max-width:1779px) {
+    .homepage-division h1{
+        font-size: 60px;
+    }
+
+    .homepage-division h4{
+        font-size: 24px;
+    }
+
+    #resumepage h1, #portfoliopage h1, #connectpage h1{
+        font-size: 100px;
+    }
+
+    #resumepage h4, #portfoliopage h4, #connectpage h4{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:1639px) {
+    .homepage-division h1{
+        font-size: 50px;
+    }
+
+    .homepage-division h4{
+        font-size: 19px;
+    }
+}
+@media (max-width:1499px) {
+    .homepage-division h1{
+        font-size: 45px;
+    }
+}
+
+@media (max-width:1399px) {
+    .homepage-division {
+        width: 40%;
+    }
+}
+
+@media (max-width:1299px) {
+    .homepage-division {
+        width: 30%;
+    }
+}
+
+@media (max-width:1099px) {
+    .homepage-division {
+        width: 20%;
+    }
+
+    .button-row button {
+        font-size: 15px;
+
+    }
+}
+
+@media (max-width:1022px) {
+    .homepage-division {
+        width: 100%
+    }
+
+    .section#homepage {
+        background-image: none;
+        background-color: white;
+    }
+
+}
+
+@media (max-width:859px) {
+    #resumepage h1, #portfoliopage h1, #connectpage h1{
+        font-size: 80px;
+    }
+
+    #resumepage h4, #portfoliopage h4, #connectpage h4{
+        font-size: 25px;
+    }
+}
+
+@media (max-width:719px) {
+
+    #resumepage h4, #portfoliopage h4, #connectpage h4{
+        width: 80%
+    }
+}
+
+@media (max-width:320px) {
+    #resumepage h1, #portfoliopage h1, #connectpage h1 {
+        font-size: 50px;
+    }
+
+    #resumepage h4, #portfoliopage h4{
+        width: 50%
+    }
+    #connectpage h4 {
+        font-size: 20px;
+    }
+
+    #connectpage .socials-logo {
+        height: 45px;
+        width: 45px;
+    }
+}
+
+@media (max-width:425px) {
+    .buttons-portfolio .button-black {
+        display: block;
+        margin: 0;
+    }
+}
