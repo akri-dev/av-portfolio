@@ -82,6 +82,7 @@ main {
     margin: 0 auto;
     text-transform: uppercase;  
     margin-bottom: 24px;
+    font-family: 'Heebo', sans-serif;
 }
 
 .button-black {
